@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+        android:background="@color/colorAccent">
+
+        <View
+
+            android:id="@+id/v_timeline"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="150dp"
+
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+
+            android:id="@+id/iv_back"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:padding="16dp"
+
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <ImageView
+
+            android:id="@+id/iv_bookmark"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+
+            android:padding="16dp"
+
+            android:src="@drawable/ic_bookmark_border_black_24dp" />
+
+        <RelativeLayout
+
+            android:id="@+id/description"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="100dp"
+
+            android:layout_marginBottom="20dp"
+
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginRight="20dp"
+
+            android:background="#ffff">
+
+            <TextView
+
+                android:id="@+id/tv_nameStory"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="fill_horizontal"
+
+                android:layout_marginTop="80dp"
+
+                android:layout_centerHorizontal="true"
+
+                android:text="DepTraiThiMoiCoNhieuDuaYeu"
+
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/tv_author"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/tv_nameStory"
+
+                android:layout_centerHorizontal="true"
+
+                android:text="Hieu Ruoi dêp trai nhat the gioi"
+
+                android:textSize="17sp"
+
+                android:textStyle="italic" />
+            <TextView
+
+                android:id="@+id/tv_description"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/tv_author"
+
+                android:layout_marginBottom="78dp"
+
+                android:layout_marginEnd="15dp"
+
+                android:layout_marginStart="15dp"
+
+                android:layout_marginTop="5dp"
+
+                android:gravity="fill_horizontal"
+
+                android:scrollbars="vertical"
+
+                android:text="trời trong xanh lá xanh xanh xanh xanh xanh xanh
+xanhanhanaldjfoadf
+alskdjflkajsdf''ádf
+jaldkjf;lakjsdflasdf"/>
+
+            <Button
+
+                android:id="@+id/bt_reading"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+
+                android:background="@color/colorPrimary"
+
+                android:layout_margin="15dp"
+
+                android:text="Đọc đê đọc đê"
+
+                android:textStyle="bold"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="15sp" />
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+
+            android:layout_width="130dp"
+
+            android:layout_height="130dp"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="30dp">
+
+
+
+            <ImageView
+
+                android:id="@+id/iv_imageStory"
+
+                android:scaleType="centerCrop"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:background="@color/xamxit" />
+
+        </LinearLayout>
+
+
+        </RelativeLayout>
