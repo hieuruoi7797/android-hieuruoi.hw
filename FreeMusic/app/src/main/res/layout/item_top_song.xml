@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_top_song"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/tv_top_song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_toRightOf="@id/iv_top_song"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="chi Quyen danh da , chua ngoa"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top_song_name"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_top_song"
+        android:textColor="@color/colorTextAccent"
+        android:id="@+id/tv_top_song_artist"/>
+</RelativeLayout>
